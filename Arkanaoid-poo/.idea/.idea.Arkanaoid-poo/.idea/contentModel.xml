@@ -8,6 +8,7 @@
       <e p="Arkanaoid-poo.csproj" t="IncludeRecursive" />
       <e p="Arkanaoid-poo.sln" t="IncludeFlat" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="DBConnection.cs" t="Include" />
       <e p="fmrRegister.cs" t="Include" />
       <e p="fmrRegister.Designer.cs" t="Include" />
       <e p="fmrRegister.resx" t="Include" />
@@ -19,6 +20,7 @@
       <e p="frmList.resx" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
