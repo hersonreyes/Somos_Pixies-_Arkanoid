@@ -7,3 +7,14 @@ C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.exe
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.pdb
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.Form1.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.exe.config
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.exe
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.pdb
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csprojAssemblyReference.cache
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.fmrRegister.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.Form1.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.frmList.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.Properties.Resources.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csproj.GenerateResource.cache
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.exe
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.pdb
