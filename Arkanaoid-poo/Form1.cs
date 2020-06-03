@@ -21,5 +21,24 @@ namespace Arkanaoid_poo
         {
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form register = new fmrRegister(this);
+            register.WindowState = FormWindowState.Maximized;
+            register.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form List = new frmList();
+            List.WindowState = FormWindowState.Maximized;
+            List.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

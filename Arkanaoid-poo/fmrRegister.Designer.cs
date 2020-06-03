@@ -104,6 +104,7 @@ namespace Arkanaoid_poo
             this.btnRegister.TabIndex = 2;
             this.btnRegister.Text = "Jugar";
             this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // fmrRegister
             // 
