@@ -19,18 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="">
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Form1 Buttons Codification N Form Register Codification">
+      <change afterPath="$PROJECT_DIR$/FormGame.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormGame.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.FormGame.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanaoid-poo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanaoid-poo.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmrRegister.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmrRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
     </list>
@@ -46,6 +47,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fmrRegister.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Form1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,18 +62,23 @@
         <option value="$PROJECT_DIR$/frmList.Designer.cs" />
         <option value="$PROJECT_DIR$/DBConnection.cs" />
         <option value="$PROJECT_DIR$/fmrRegister.Designer.cs" />
-        <option value="$PROJECT_DIR$/fmrRegister.cs" />
         <option value="$PROJECT_DIR$/Form1.cs" />
+        <option value="$PROJECT_DIR$/FormGame.Designer.cs" />
+        <option value="$PROJECT_DIR$/fmrRegister.cs" />
+        <option value="$PROJECT_DIR$/FormGame.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1c3WWLd3KLQ5qqbd1IguTsZ9l4R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -114,7 +122,8 @@
       <workItem from="1591142171607" duration="449000" />
       <workItem from="1591142759151" duration="24000" />
       <workItem from="1591142803861" duration="35000" />
-      <workItem from="1591214818968" duration="5173000" />
+      <workItem from="1591214818968" duration="5987000" />
+      <workItem from="1591233585984" duration="6158000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -130,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591146962281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add: Form1 Buttons Codification N Form Register Codification">
+      <created>1591220143703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591220143703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,28 +168,30 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add: fmrRegister" />
     <MESSAGE value="ADD: frmList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: frmList" />
+    <MESSAGE value="Add: Form1 Buttons Codification N Form Register Codification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Form1 Buttons Codification N Form Register Codification" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1306" height="2" key="GridCell.Tab.0.bottom" timestamp="1591219781612">
+    <state width="1306" height="2" key="GridCell.Tab.0.bottom" timestamp="1591306926235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591219781612" />
-    <state width="1306" height="2" key="GridCell.Tab.0.center" timestamp="1591219781612">
+    <state width="1306" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591306926235" />
+    <state width="1306" height="2" key="GridCell.Tab.0.center" timestamp="1591306926234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591219781612" />
-    <state width="1306" height="2" key="GridCell.Tab.0.left" timestamp="1591219781611">
+    <state width="1306" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591306926234" />
+    <state width="1306" height="2" key="GridCell.Tab.0.left" timestamp="1591306926234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591219781611" />
-    <state width="1306" height="2" key="GridCell.Tab.0.right" timestamp="1591219781612">
+    <state width="1306" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591306926234" />
+    <state width="1306" height="2" key="GridCell.Tab.0.right" timestamp="1591306926234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591219781612" />
+    <state width="1306" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591306926234" />
     <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1591219491968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -186,5 +204,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591219463137" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1591301079523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591301079523" />
   </component>
 </project>

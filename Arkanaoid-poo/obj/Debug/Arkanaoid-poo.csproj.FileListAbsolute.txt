@@ -66,3 +66,4 @@ C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\System.Tex
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\System.ValueTuple.xml
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csproj.CopyComplete
+C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.FormGame.resources
