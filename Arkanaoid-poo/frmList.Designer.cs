@@ -64,7 +64,7 @@ namespace Arkanaoid_poo
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(933, 519);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(510, 528);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label2
@@ -73,9 +73,9 @@ namespace Arkanaoid_poo
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Old English Text MT", 48F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.Location = new System.Drawing.Point(469, 0);
+            this.label2.Location = new System.Drawing.Point(258, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(461, 103);
+            this.label2.Size = new System.Drawing.Size(249, 105);
             this.label2.TabIndex = 1;
             this.label2.Text = "10";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -88,7 +88,7 @@ namespace Arkanaoid_poo
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(460, 103);
+            this.label1.Size = new System.Drawing.Size(249, 105);
             this.label1.TabIndex = 0;
             this.label1.Text = "TOP";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -99,9 +99,9 @@ namespace Arkanaoid_poo
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 2);
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 106);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 108);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(927, 410);
+            this.dataGridView1.Size = new System.Drawing.Size(504, 417);
             this.dataGridView1.TabIndex = 2;
             // 
             // frmList
@@ -109,13 +109,13 @@ namespace Arkanaoid_poo
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(933, 519);
+            this.ClientSize = new System.Drawing.Size(510, 528);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmList";
             this.Text = "frmList";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.frmList_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
