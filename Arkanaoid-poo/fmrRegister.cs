@@ -21,9 +21,12 @@ namespace Arkanaoid_poo
            
                 DBConnection.ExecuteNonQuery($"INSERT INTO PLAYER(nickname) " +
                                              $"VALUES('{txtUserRegister.Text}')");
-                this.main.Hide();
-                
+                FormGame game= new FormGame();
+                game.Show();
 
+                main.Hide();
+                this.Hide();
+                
 
         }
     }
