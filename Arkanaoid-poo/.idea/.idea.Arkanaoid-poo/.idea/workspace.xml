@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="ADD : GameData Static Class &amp; Modify FormGame add ball">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.resx" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="ADD: GameData Static Class and Bounce Ball" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591496422413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ADD: GameData Static Class and Bounce Ball">
+      <created>1591501598006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591501598006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,25 +177,26 @@
     <MESSAGE value="ADD: frmList" />
     <MESSAGE value="Add: Form1 Buttons Codification N Form Register Codification" />
     <MESSAGE value="ADD : GameData Static Class &amp; Modify FormGame add ball" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD : GameData Static Class &amp; Modify FormGame add ball" />
+    <MESSAGE value="ADD: GameData Static Class and Bounce Ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: GameData Static Class and Bounce Ball" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1591500188446">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1591501668436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591500188446" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1591500188446">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591501668436" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1591501668435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591500188446" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1591500188445">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591501668435" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1591501668435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591500188445" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1591500188446">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591501668435" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1591501668436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591500188446" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591501668436" />
     <state width="711" height="127" key="GridCell.Tab.1.bottom" timestamp="1591489709623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
