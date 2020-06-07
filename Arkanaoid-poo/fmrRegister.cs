@@ -42,7 +42,7 @@ namespace Arkanaoid_poo
             }
             catch (Exception)
             {
-                MessageBox.Show("Ha ocurrido un error");
+                MessageBox.Show("Ha ocurrido un error, intente con otro nombre");
             }
 
 

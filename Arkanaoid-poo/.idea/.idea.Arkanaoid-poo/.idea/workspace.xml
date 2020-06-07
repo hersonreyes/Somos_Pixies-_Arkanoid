@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Backgroud to GameForm and welcome sound">
-      <change afterPath="$PROJECT_DIR$/UnchargedBallException.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanaoid-poo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanaoid-poo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmrRegister.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmrRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
@@ -43,19 +40,19 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/UnchargedBallException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FormGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GameData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fmrRegister.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnchargedBallException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/frmList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fmrRegister.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,8 +65,8 @@
         <option value="$PROJECT_DIR$/GameData.cs" />
         <option value="$PROJECT_DIR$/Form1.cs" />
         <option value="$PROJECT_DIR$/UnchargedBallException.cs" />
-        <option value="$PROJECT_DIR$/fmrRegister.cs" />
         <option value="$PROJECT_DIR$/FormGame.cs" />
+        <option value="$PROJECT_DIR$/fmrRegister.cs" />
       </list>
     </option>
   </component>
@@ -205,22 +202,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add: Backgroud to GameForm and welcome sound" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1591539490135">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1591545469126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591539490135" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1591539490135">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591545469126" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1591545469125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591539490135" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1591539490135">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591545469125" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1591545469124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591539490135" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1591539490135">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591545469124" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1591545469125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591539490135" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591545469125" />
     <state width="1323" height="129" key="GridCell.Tab.1.bottom" timestamp="1591536143844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
