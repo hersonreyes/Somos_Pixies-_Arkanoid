@@ -28,7 +28,7 @@ namespace Arkanaoid_poo
             
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
-            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball2.jpeg");
+            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball2.png");
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.Top = pictureBox1.Top - ball.Height;
             ball.Left = pictureBox1.Left + (pictureBox1.Width /2) - (ball.Width / 2);
@@ -58,7 +58,8 @@ namespace Arkanaoid_poo
 
 
                     tiles[i, j].Left = j * pWidth;
-                    tiles[i, j].Top = i * pHeight;
+                    //top es para donde inician los tiles de arriba para abajo
+                    tiles[i, j].Top = (i * pHeight)+50;
                     
                     tiles[i, j].Height = pHeight;
                     tiles[i, j].Width = pWidth;
