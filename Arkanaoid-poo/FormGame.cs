@@ -8,6 +8,7 @@ namespace Arkanaoid_poo
     {
         private int speed;
         private CustomPictureBox[,] tiles;
+        private PictureBox ball;
         public FormGame()
         {
             InitializeComponent();
@@ -23,6 +24,15 @@ namespace Arkanaoid_poo
             pictureBox1.BackgroundImage=Image.FromFile("../../../Sprites/Player.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Top = (Height - pictureBox1.Height) - 50;
+            pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
+            
+            ball = new PictureBox();
+            ball.Width = ball.Height = 20;
+            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball.png");
+            ball.BackgroundImageLayout = ImageLayout.Stretch;
+            ball.Top = pictureBox1.Top - ball.Height;
+            ball.Left = pictureBox1.Left + (pictureBox1.Width /2) - (ball.Width / 2);
+            Controls.Add(ball);
             LoadTiles();
         }
 
@@ -64,8 +74,19 @@ namespace Arkanaoid_poo
 
         private void FormGame_MouseMove(object sender, MouseEventArgs e)
         {
-            if (e.X < (Width - pictureBox1.Width)) 
-            pictureBox1.Left = e.X;
+            if (!GameData.gameStarted)
+            {
+                if(e.X < (Width - pictureBox1.Width))
+                {
+                    pictureBox1.Left = e.X;
+                    ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+                }
+            }
+            else
+            {
+                if (e.X < (Width - pictureBox1.Width))
+                    pictureBox1.Left = e.X;
+            }
         }
     }
 }

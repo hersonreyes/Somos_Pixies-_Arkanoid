@@ -19,31 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Form Game">
-      <change afterPath="$PROJECT_DIR$/CustomPictureBox.cs" afterDir="false" />
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Modify frmList design">
+      <change afterPath="$PROJECT_DIR$/GameData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanaoid-poo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanaoid-poo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.resx" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Form1.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Form1.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.FormGame.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.FormGame.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.frmList.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.frmList.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - blinded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - light yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - lightblue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - mint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprites/Tile - red.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +42,18 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FormGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fmrRegister.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/frmList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fmrRegister.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fmrRegister.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frmList.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,6 +65,7 @@
         <option value="$PROJECT_DIR$/FormGame.Designer.cs" />
         <option value="$PROJECT_DIR$/fmrRegister.cs" />
         <option value="$PROJECT_DIR$/CustomPictureBox.cs" />
+        <option value="$PROJECT_DIR$/GameData.cs" />
         <option value="$PROJECT_DIR$/FormGame.cs" />
       </list>
     </option>
@@ -188,22 +177,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add: Form1 Buttons Codification N Form Register Codification" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="711" height="2" key="GridCell.Tab.0.bottom" timestamp="1591492663450">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1591496351821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="711" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591492663450" />
-    <state width="711" height="2" key="GridCell.Tab.0.center" timestamp="1591492663449">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591496351821" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1591496351821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="711" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591492663449" />
-    <state width="711" height="2" key="GridCell.Tab.0.left" timestamp="1591492663449">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591496351821" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1591496351821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="711" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591492663449" />
-    <state width="711" height="2" key="GridCell.Tab.0.right" timestamp="1591492663450">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591496351821" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1591496351821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="711" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591492663450" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591496351821" />
     <state width="711" height="127" key="GridCell.Tab.1.bottom" timestamp="1591489709623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -276,10 +265,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591488156382" />
-    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591219463137">
+    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591494090395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591219463137" />
+    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591494090395" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1591301079523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

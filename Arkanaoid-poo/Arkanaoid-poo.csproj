@@ -114,6 +114,7 @@
         <Compile Include="frmList.Designer.cs">
           <DependentUpon>frmList.cs</DependentUpon>
         </Compile>
+        <Compile Include="GameData.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <EmbeddedResource Include="fmrRegister.resx">
