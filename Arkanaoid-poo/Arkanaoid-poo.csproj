@@ -88,6 +88,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="CustomPictureBox.cs" />
         <Compile Include="DBConnection.cs" />
         <Compile Include="fmrRegister.cs">
           <SubType>Form</SubType>
