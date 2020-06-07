@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Arkanaoid_poo
@@ -6,6 +8,8 @@ namespace Arkanaoid_poo
     public partial class fmrRegister : Form
     {
         private Form1 main = null;
+        private List<string> balls = new List<string> {"Normal","Ronaldo","Cortez"};
+        private string route = "";
         public fmrRegister()
         {
             InitializeComponent();
@@ -18,16 +22,60 @@ namespace Arkanaoid_poo
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
                 DBConnection.ExecuteNonQuery($"INSERT INTO PLAYER(nickname) " +
                                              $"VALUES('{txtUserRegister.Text}')");
-                FormGame game= new FormGame();
-                game.Show();
 
+                if (route.Equals(""))
+                    throw new UnchargedBallException("Por favor, cargue una bola");
+                FormGame game = new FormGame(route);
+                game.Show();
                 main.Hide();
                 this.Hide();
-                
 
+
+            }
+            catch (UnchargedBallException esg)
+            {
+                MessageBox.Show(esg.Message);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ha ocurrido un error");
+            }
+
+
+
+
+        }
+
+        private void fmrRegister_Load(object sender, EventArgs e)
+        {
+            comboBox1.DataSource = balls;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    route = "../../../Sprites/Ball.png";
+                    pictureBox1.BackgroundImage=Image.FromFile(route);
+                    pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                 case 1:
+                     route = "../../../Sprites/Ball2.png";
+                     pictureBox1.BackgroundImage=Image.FromFile(route);
+                     pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+                     break;
+                case 2:
+                    route = "../../../Sprites/Ball3.png";
+                    pictureBox1.BackgroundImage=Image.FromFile(route);
+                    pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+                    break;
+                 
+            }
         }
     }
 }

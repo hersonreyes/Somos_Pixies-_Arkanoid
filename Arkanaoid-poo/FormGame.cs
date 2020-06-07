@@ -9,6 +9,7 @@ namespace Arkanaoid_poo
         private int speed;
         private CustomPictureBox[,] tiles;
         private PictureBox ball;
+        private string route;
         public FormGame()
         {
             InitializeComponent();
@@ -16,6 +17,16 @@ namespace Arkanaoid_poo
             WindowState = FormWindowState.Maximized;
             Height = ClientSize.Height;
             Width = ClientSize.Width;
+
+        }
+        public FormGame(string route)
+        {
+            InitializeComponent();
+            speed = 5;
+            WindowState = FormWindowState.Maximized;
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            this.route = route;
 
         }
 
@@ -28,7 +39,7 @@ namespace Arkanaoid_poo
             
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
-            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball2.png");
+            ball.BackgroundImage = Image.FromFile(route);
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.Top = pictureBox1.Top - ball.Height;
             ball.Left = pictureBox1.Left + (pictureBox1.Width /2) - (ball.Width / 2);
@@ -58,7 +69,7 @@ namespace Arkanaoid_poo
 
 
                     tiles[i, j].Left = j * pWidth;
-                    //top es para donde inician los tiles de arriba para abajo
+                    //top se cambia para dejar espacio para las vidas
                     tiles[i, j].Top = (i * pHeight)+50;
                     
                     tiles[i, j].Height = pHeight;
