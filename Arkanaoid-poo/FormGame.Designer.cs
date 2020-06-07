@@ -31,7 +31,9 @@ namespace Arkanaoid_poo
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -39,9 +41,13 @@ namespace Arkanaoid_poo
             // 
             this.pictureBox1.Location = new System.Drawing.Point(238, 411);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(263, 48);
+            this.pictureBox1.Size = new System.Drawing.Size(262, 48);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FormGame
             // 
@@ -54,6 +60,7 @@ namespace Arkanaoid_poo
             this.Text = "FormGame";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormGame_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormGame_KeyDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FormGame_MouseMove);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -62,5 +69,6 @@ namespace Arkanaoid_poo
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

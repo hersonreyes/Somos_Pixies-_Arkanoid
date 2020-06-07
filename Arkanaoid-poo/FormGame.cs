@@ -28,12 +28,13 @@ namespace Arkanaoid_poo
             
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
-            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball.png");
+            ball.BackgroundImage = Image.FromFile("../../../Sprites/Ball2.jpeg");
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.Top = pictureBox1.Top - ball.Height;
             ball.Left = pictureBox1.Left + (pictureBox1.Width /2) - (ball.Width / 2);
             Controls.Add(ball);
             LoadTiles();
+            timer1.Start();
         }
 
         private void LoadTiles()
@@ -88,5 +89,62 @@ namespace Arkanaoid_poo
                     pictureBox1.Left = e.X;
             }
         }
+        
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (!GameData.gameStarted)
+            {
+                return;
+            }
+
+            ball.Left += GameData.dirX;
+            ball.Top += GameData.dirY;
+            
+            bounceBall();
+        }
+
+        private void FormGame_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Space)
+            {
+                GameData.gameStarted = true;
+            }
+        }
+
+        private void bounceBall()
+        {
+            if (ball.Bottom > Height)
+                Application.Exit();
+
+            if (ball.Left < 0 || ball.Right > Width)
+            {
+                GameData.dirX = -GameData.dirX;
+                return;
+            }
+
+            if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
+            {
+                GameData.dirY = -GameData.dirY;
+            }
+            
+            for (int i = 5; i >= 0; i--)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if (ball.Bounds.IntersectsWith(tiles[i, j].Bounds))
+                    {
+                        tiles[i, j].Hits--;
+
+                        if (tiles[i, j].Hits == 0)
+                            Controls.Remove(tiles[i,j]);
+
+                       
+                        GameData.dirY = -GameData.dirY;
+                        return;
+                    }
+                }
+            }
+        }
+        
     }
 }
