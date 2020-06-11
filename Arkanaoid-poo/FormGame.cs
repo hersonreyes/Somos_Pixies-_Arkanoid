@@ -6,7 +6,7 @@ namespace Arkanaoid_poo
 {
     public partial class FormGame : Form
     {
-        private int speed;
+        //Aun no se implementa ningun userControl, pero se hará luego
         private CustomPictureBox[,] tiles;
         private PictureBox ball;
         private string route;
@@ -124,16 +124,23 @@ namespace Arkanaoid_poo
         }
 
         private void bounceBall()
-        {
+        {   //si la bola toca el fondo de la pantalla
             if (ball.Bottom > Height)
-                Application.Exit();
-
+                //provisional hasta diseñar sistema de vidas
+                Application.Exit(); 
+            //rebote con la izquierda y derecha de la pantalla
             if (ball.Left < 0 || ball.Right > Width)
             {
                 GameData.dirX = -GameData.dirX;
                 return;
             }
-
+            //Provisional, pues hay que considerar espacio para las vidas 
+            if (ball.Top < 0)
+            {
+                GameData.dirY = -GameData.dirY;
+                return;
+            }
+            //rebote con el jugador
             if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
             {
                 GameData.dirY = -GameData.dirY;
@@ -148,11 +155,17 @@ namespace Arkanaoid_poo
                         tiles[i, j].Hits--;
 
                         if (tiles[i, j].Hits == 0)
-                            
-                            Controls.Remove(tiles[i,j]);
-                        tiles[i, j]=null;
+                        {   
+                            Controls.Remove(tiles[i, j]);
+                            tiles[i, j] = null;
+                        }
+                        else
+                        {   //si el bloque es golpeado y aun tiene vida, se cambia su diseño
+                            tiles[i,j].BackgroundImage=Image.FromFile("../../../" + "Sprites/Tile - blinded broken.png");
+                            tiles[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                        }
 
-                       
+
                         GameData.dirY = -GameData.dirY;
                         return;
                     }

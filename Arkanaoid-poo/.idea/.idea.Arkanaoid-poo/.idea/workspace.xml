@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: fmrRegister">
-      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
     </list>
@@ -132,6 +124,7 @@
       <workItem from="1591233585984" duration="6158000" />
       <workItem from="1591534067698" duration="5628000" />
       <workItem from="1591847309415" duration="4191000" />
+      <workItem from="1591910276304" duration="4759000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -207,22 +200,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add: Backgroud to GameForm and welcome sound" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1290" height="35" key="GridCell.Tab.0.bottom" timestamp="1591851571466">
+    <state width="1290" height="35" key="GridCell.Tab.0.bottom" timestamp="1591915104997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1290" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591851571466" />
-    <state width="1290" height="35" key="GridCell.Tab.0.center" timestamp="1591851571466">
+    <state width="1290" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591915104997" />
+    <state width="1290" height="35" key="GridCell.Tab.0.center" timestamp="1591915104997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1290" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591851571466" />
-    <state width="1290" height="35" key="GridCell.Tab.0.left" timestamp="1591851571466">
+    <state width="1290" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591915104997" />
+    <state width="1290" height="35" key="GridCell.Tab.0.left" timestamp="1591915104997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1290" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591851571466" />
-    <state width="1290" height="35" key="GridCell.Tab.0.right" timestamp="1591851571466">
+    <state width="1290" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591915104997" />
+    <state width="1290" height="35" key="GridCell.Tab.0.right" timestamp="1591915104997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1290" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591851571466" />
+    <state width="1290" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591915104997" />
     <state width="1323" height="129" key="GridCell.Tab.1.bottom" timestamp="1591536143844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
