@@ -13,16 +13,16 @@ namespace Arkanaoid_poo
         public FormGame()
         {
             InitializeComponent();
-            speed = 5;
-            WindowState = FormWindowState.Maximized;
+            
             Height = ClientSize.Height;
             Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
 
         }
         public FormGame(string route)
         {
             InitializeComponent();
-            speed = 5;
+           
             WindowState = FormWindowState.Maximized;
             Height = ClientSize.Height;
             Width = ClientSize.Width;
@@ -31,14 +31,14 @@ namespace Arkanaoid_poo
         }
 
         private void FormGame_Load(object sender, EventArgs e)
-        {
+        {   //seteando atributos para pictureBox del jugador
             pictureBox1.BackgroundImage=Image.FromFile("../../../Sprites/Player.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Top = (Height - pictureBox1.Height) - 50;
             pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
-            
+            //seteando atibutos  para pictureBox de la pelota
             ball = new PictureBox();
-            ball.Width = ball.Height = 20;
+            ball.Width = ball.Height = 30;
             ball.BackgroundImage = Image.FromFile(route);
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.Top = pictureBox1.Top - ball.Height;
@@ -51,7 +51,7 @@ namespace Arkanaoid_poo
         private void LoadTiles()
         {
             int xAxis = 10;
-            int yAxis = 6;
+            int yAxis = 5;
             
             int pHeight = (int) (Height * 0.29) / yAxis;
             int pWidth = (Width - (xAxis-5)) / xAxis;
@@ -70,7 +70,7 @@ namespace Arkanaoid_poo
 
                     tiles[i, j].Left = j * pWidth;
                     //top se cambia para dejar espacio para las vidas
-                    tiles[i, j].Top = (i * pHeight)+50;
+                    tiles[i, j].Top = (i * pHeight) + 50;
                     
                     tiles[i, j].Height = pHeight;
                     tiles[i, j].Width = pWidth;
@@ -139,16 +139,18 @@ namespace Arkanaoid_poo
                 GameData.dirY = -GameData.dirY;
             }
             
-            for (int i = 5; i >= 0; i--)
+            for (int i = 4; i >= 0; i--)
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    if (ball.Bounds.IntersectsWith(tiles[i, j].Bounds))
+                    if (tiles[i, j] != null && ball.Bounds.IntersectsWith(tiles[i, j].Bounds))
                     {
                         tiles[i, j].Hits--;
 
                         if (tiles[i, j].Hits == 0)
+                            
                             Controls.Remove(tiles[i,j]);
+                        tiles[i, j]=null;
 
                        
                         GameData.dirY = -GameData.dirY;
