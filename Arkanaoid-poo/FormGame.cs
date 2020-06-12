@@ -52,6 +52,7 @@ namespace Arkanaoid_poo
         {
             int xAxis = 10;
             int yAxis = 5;
+            int LevelTop = 50;
             
             int pHeight = (int) (Height * 0.29) / yAxis;
             int pWidth = (Width - (xAxis-5)) / xAxis;
@@ -70,7 +71,7 @@ namespace Arkanaoid_poo
 
                     tiles[i, j].Left = j * pWidth;
                     //top se cambia para dejar espacio para las vidas
-                    tiles[i, j].Top = (i * pHeight) + 50;
+                    tiles[i, j].Top = (i * pHeight) + LevelTop;
                     
                     tiles[i, j].Height = pHeight;
                     tiles[i, j].Width = pWidth;
@@ -124,7 +125,10 @@ namespace Arkanaoid_poo
         }
 
         private void bounceBall()
-        {   //si la bola toca el fondo de la pantalla
+        {
+            
+             
+            //si la bola toca el fondo de la pantalla
             if (ball.Bottom > Height)
                 //provisional hasta diseñar sistema de vidas
                 Application.Exit(); 
@@ -134,8 +138,10 @@ namespace Arkanaoid_poo
                 GameData.dirX = -GameData.dirX;
                 return;
             }
+            // //Altura maxima a la que rebotara la bola
             //Provisional, pues hay que considerar espacio para las vidas 
-            if (ball.Top < 0)
+            if (ball.Top < 50) 
+                // ball.top < LevelTop; donde i es cero 
             {
                 GameData.dirY = -GameData.dirY;
                 return;

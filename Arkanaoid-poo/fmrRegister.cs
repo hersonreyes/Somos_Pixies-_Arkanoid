@@ -8,7 +8,7 @@ namespace Arkanaoid_poo
     public partial class fmrRegister : Form
     {
         private Form1 main = null;
-        private List<string> balls = new List<string> {"Normal","Ronaldo","Cortez"};
+        private List<string> balls = new List<string> {"Normal","Esfera del Dragon","Sharingan"};
         private string route = "";
         public fmrRegister()
         {
