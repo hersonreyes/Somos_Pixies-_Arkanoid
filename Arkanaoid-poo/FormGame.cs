@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Media;
 using System.Windows.Forms;
 
 namespace Arkanaoid_poo
@@ -8,6 +9,7 @@ namespace Arkanaoid_poo
     {
         //Aun no se implementa ningun userControl, pero se hará luego
         private CustomPictureBox[,] tiles;
+        SoundPlayer music=new SoundPlayer();
         private PictureBox ball;
         private string route;
         public FormGame()
@@ -45,6 +47,22 @@ namespace Arkanaoid_poo
             ball.Left = pictureBox1.Left + (pictureBox1.Width /2) - (ball.Width / 2);
             Controls.Add(ball);
             LoadTiles();
+            //seteando musica de fondo
+            if (route.Equals("../../../Sprites/Ball3.png"))
+            {
+                music.SoundLocation = "../../../Sounds/naruto.wav";
+                music.PlayLooping();
+            }
+            else  if (route.Equals("../../../Sprites/Ball.png"))
+            {
+                music.SoundLocation = "../../../Sounds/Nball.wav";
+                music.PlayLooping();
+            }
+            else  if (route.Equals("../../../Sprites/Ball2.png"))
+            {
+                music.SoundLocation = "../../../Sounds/dragonball.wav";
+                music.PlayLooping();
+            }
             timer1.Start();
         }
 
@@ -158,10 +176,12 @@ namespace Arkanaoid_poo
                 {
                     if (tiles[i, j] != null && ball.Bounds.IntersectsWith(tiles[i, j].Bounds))
                     {
+                        
                         tiles[i, j].Hits--;
 
                         if (tiles[i, j].Hits == 0)
                         {   
+                            
                             Controls.Remove(tiles[i, j]);
                             tiles[i, j] = null;
                         }
