@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Dragon Ball &amp; Sharingan Sound">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
@@ -127,6 +126,7 @@
       <workItem from="1591910276304" duration="4759000" />
       <workItem from="1591995832187" duration="5476000" />
       <workItem from="1592069106559" duration="5404000" />
+      <workItem from="1592081751165" duration="1101000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -211,22 +211,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add: Dragon Ball &amp; Sharingan Sound" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1592081010012">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1592081767741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1592081010012">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592081767741" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1592083374369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1592081010012">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592083374369" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1592083374369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1592081010012">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592083374369" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1592083374369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592083374369" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1592083374369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592083374369" />
     <state width="1323" height="129" key="GridCell.Tab.1.bottom" timestamp="1591536143844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,10 +307,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591537292880" />
-    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591997311147">
+    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592083366467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1591997311147" />
+    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592083366467" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1591301079523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

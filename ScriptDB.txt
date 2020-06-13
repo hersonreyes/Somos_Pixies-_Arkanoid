@@ -1,0 +1,25 @@
+CREATE DATABASE "ArkanoidDB"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Spanish_Mexico.1252'
+    LC_CTYPE = 'Spanish_Mexico.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE PLAYER (
+	nickname varchar(50) primary key not null
+)
+
+CREATE TABLE SCORE (
+	id_score serial primary key not null,
+	score integer not null
+)
+
+ALTER TABLE SCORE
+ADD Column player_nickname varchar (50) not null
+
+ALTER TABLE SCORE
+ADD CONSTRAINT FK_player
+FOREIGN KEY (player_nickname)
+REFERENCES PLAYER(nickname)
