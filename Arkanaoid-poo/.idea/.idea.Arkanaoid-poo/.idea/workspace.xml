@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: fmrRegister">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" afterDir="false" />
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Dragon Ball &amp; Sharingan Sound">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmrRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
     </list>
@@ -62,11 +59,11 @@
         <option value="$PROJECT_DIR$/fmrRegister.Designer.cs" />
         <option value="$PROJECT_DIR$/FormGame.Designer.cs" />
         <option value="$PROJECT_DIR$/CustomPictureBox.cs" />
-        <option value="$PROJECT_DIR$/Form1.cs" />
         <option value="$PROJECT_DIR$/UnchargedBallException.cs" />
         <option value="$PROJECT_DIR$/GameData.cs" />
-        <option value="$PROJECT_DIR$/FormGame.cs" />
         <option value="$PROJECT_DIR$/fmrRegister.cs" />
+        <option value="$PROJECT_DIR$/Form1.cs" />
+        <option value="$PROJECT_DIR$/FormGame.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +125,8 @@
       <workItem from="1591534067698" duration="5628000" />
       <workItem from="1591847309415" duration="4191000" />
       <workItem from="1591910276304" duration="4759000" />
-      <workItem from="1591995832187" duration="1288000" />
+      <workItem from="1591995832187" duration="5476000" />
+      <workItem from="1592069106559" duration="5404000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -172,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591504217845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add: Dragon Ball &amp; Sharingan Sound">
+      <created>1591997382244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591997382244</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,25 +207,26 @@
     <MESSAGE value="ADD : GameData Static Class &amp; Modify FormGame add ball" />
     <MESSAGE value="ADD: GameData Static Class and Bounce Ball" />
     <MESSAGE value="Add: Backgroud to GameForm and welcome sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Backgroud to GameForm and welcome sound" />
+    <MESSAGE value="Add: Dragon Ball &amp; Sharingan Sound" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Dragon Ball &amp; Sharingan Sound" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1591997328188">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1592081010012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591997328188" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1591997328187">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1592081010012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591997328187" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1591997328187">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1592081010012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591997328187" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1591997328188">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1592081010012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591997328188" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592081010012" />
     <state width="1323" height="129" key="GridCell.Tab.1.bottom" timestamp="1591536143844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
