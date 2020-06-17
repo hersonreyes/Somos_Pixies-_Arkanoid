@@ -23,6 +23,9 @@
       <e p="frmList.Designer.cs" t="Include" />
       <e p="frmList.resx" t="Include" />
       <e p="GameData.cs" t="Include" />
+      <e p="GameOptions.cs" t="Include" />
+      <e p="GameOptions.Designer.cs" t="Include" />
+      <e p="GameOptions.resx" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />

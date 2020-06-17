@@ -33,6 +33,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Arkanaoid_poo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>bin\Debug\Arkanaoid_poo.exe</HintPath>
+        </Reference>
         <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
           <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
           <Private>True</Private>
@@ -115,6 +118,12 @@
           <DependentUpon>frmList.cs</DependentUpon>
         </Compile>
         <Compile Include="GameData.cs" />
+        <Compile Include="GameOptions.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="GameOptions.Designer.cs">
+          <DependentUpon>GameOptions.cs</DependentUpon>
+        </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="UnchargedBallException.cs" />
@@ -129,6 +138,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="frmList.resx">
           <DependentUpon>frmList.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="GameOptions.resx">
+          <DependentUpon>GameOptions.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>

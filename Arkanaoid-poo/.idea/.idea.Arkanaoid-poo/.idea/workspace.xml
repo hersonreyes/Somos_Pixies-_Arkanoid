@@ -19,18 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Dragon Ball &amp; Sharingan Sound">
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Add: Scores in Database">
+      <change afterPath="$PROJECT_DIR$/GameOptions.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameOptions.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.GameOptions.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_2020_11_55__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_2020_11_55__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanaoid-poo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanaoid-poo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmrRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fmrRegister.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
@@ -51,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameOptions.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/fmrRegister.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UnchargedBallException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,10 +71,15 @@
         <option value="$PROJECT_DIR$/FormGame.Designer.cs" />
         <option value="$PROJECT_DIR$/CustomPictureBox.cs" />
         <option value="$PROJECT_DIR$/UnchargedBallException.cs" />
-        <option value="$PROJECT_DIR$/Form1.cs" />
         <option value="$PROJECT_DIR$/GameData.cs" />
         <option value="$PROJECT_DIR$/FormGame.cs" />
         <option value="$PROJECT_DIR$/fmrRegister.cs" />
+        <option value="$PROJECT_DIR$/frmList.cs" />
+        <option value="$PROJECT_DIR$/TopScores.Designer.cs" />
+        <option value="$PROJECT_DIR$/TopScores.cs" />
+        <option value="$PROJECT_DIR$/GameOptions.Designer.cs" />
+        <option value="$PROJECT_DIR$/Form1.cs" />
+        <option value="$PROJECT_DIR$/GameOptions.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +146,7 @@
       <workItem from="1592081751165" duration="1101000" />
       <workItem from="1592085536858" duration="1659000" />
       <workItem from="1592265711098" duration="4624000" />
+      <workItem from="1592419763708" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -188,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591997382244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add: Scores in Database">
+      <created>1592417280801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592417280801</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,33 +235,34 @@
     <MESSAGE value="ADD: GameData Static Class and Bounce Ball" />
     <MESSAGE value="Add: Backgroud to GameForm and welcome sound" />
     <MESSAGE value="Add: Dragon Ball &amp; Sharingan Sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Dragon Ball &amp; Sharingan Sound" />
+    <MESSAGE value="Add: Scores in Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Scores in Database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1592081767741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592081767741" />
-    <state width="1877" height="20" key="GridCell.Tab.0.bottom" timestamp="1592415032563">
+    <state width="1877" height="20" key="GridCell.Tab.0.bottom" timestamp="1592421967705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592370047908" />
-    <state width="1877" height="20" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592415032563" />
-    <state width="1877" height="20" key="GridCell.Tab.0.center" timestamp="1592415032563">
+    <state width="1877" height="20" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967705" />
+    <state width="1877" height="20" key="GridCell.Tab.0.center" timestamp="1592421967701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592370047908" />
-    <state width="1877" height="20" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592415032563" />
-    <state width="1877" height="20" key="GridCell.Tab.0.left" timestamp="1592415032562">
+    <state width="1877" height="20" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967701" />
+    <state width="1877" height="20" key="GridCell.Tab.0.left" timestamp="1592421967701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592370047908" />
-    <state width="1877" height="20" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592415032562" />
-    <state width="1877" height="20" key="GridCell.Tab.0.right" timestamp="1592415032563">
+    <state width="1877" height="20" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967701" />
+    <state width="1877" height="20" key="GridCell.Tab.0.right" timestamp="1592421967705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592370047908" />
-    <state width="1877" height="20" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592415032563" />
+    <state width="1877" height="20" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967705" />
     <state width="1323" height="129" key="GridCell.Tab.1.bottom" timestamp="1591536143844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,10 +335,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="393" y="64" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1591536381402" />
-    <state x="430" y="74" key="RollbackChangesDialog" timestamp="1592281924787">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="604" y="106" key="RollbackChangesDialog" timestamp="1592418708926">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592281924787" />
+    <state x="604" y="106" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592418708926" />
     <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592417258431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
