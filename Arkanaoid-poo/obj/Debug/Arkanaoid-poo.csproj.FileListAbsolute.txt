@@ -8,7 +8,6 @@ C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.pdb
 C:\Users\alexr\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.Form1.resources
 C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.exe.config
-C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.exe
 C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\bin\Debug\Arkanaoid_poo.pdb
 C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csprojAssemblyReference.cache
 C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.fmrRegister.resources
@@ -139,3 +138,4 @@ C:\Users\Herson Reyes\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Ark
 C:\Users\Herson Reyes\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csproj.GenerateResource.cache
 C:\Users\Herson Reyes\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid-poo.csproj.CopyComplete
 C:\Users\Herson Reyes\Desktop\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.GameOptions.resources
+C:\Users\MZX\Desktop\Repos2.0\Proyecto final\Somos_Pixies-_Arkanoid\Arkanaoid-poo\obj\Debug\Arkanaoid_poo.GameOptions.resources

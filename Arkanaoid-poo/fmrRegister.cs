@@ -26,17 +26,42 @@ namespace Arkanaoid_poo
         {
             try
             {
-                DBConnection.ExecuteNonQuery($"INSERT INTO PLAYER(nickname) " +
-                                             $"VALUES('{txtUserRegister.Text}')");
-
-                if (route.Equals(""))
-                    throw new UnchargedBallException("Por favor, cargue una bola");
+                var existing = DBConnection.ExecuteQuery($"SELECT nickname FROM PLAYER where nickname = '{txtUserRegister.Text}'");
                 
-                FormGame game = new FormGame(route,txtUserRegister.Text);
-                game.Show();
-                main.Hide();
-                this.Hide();
+                bool exist = false;
 
+                if (existing.ToString().Equals(txtUserRegister.Text))
+                {
+                    exist = true;
+                }
+                else 
+                {
+                    exist = false;
+                }
+
+                if (exist)
+                {
+                    if (route.Equals(""))
+                        throw new UnchargedBallException("Por favor, cargue una bola");
+                
+                    FormGame game = new FormGame(route,txtUserRegister.Text);
+                    game.Show();
+                    main.Hide();
+                    this.Hide();
+                }
+                else
+                {
+                    DBConnection.ExecuteNonQuery($"INSERT INTO PLAYER(nickname) " +
+                                                 $"VALUES('{txtUserRegister.Text}')");
+
+                    if (route.Equals(""))
+                        throw new UnchargedBallException("Por favor, cargue una bola");
+
+                    FormGame game = new FormGame(route, txtUserRegister.Text);
+                    game.Show();
+                    main.Hide();
+                    this.Hide();
+                }
 
             }
             catch (UnchargedBallException esg)

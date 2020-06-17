@@ -184,8 +184,8 @@ namespace Arkanaoid_poo
                 GameData.dirX = -GameData.dirX;
                 return;
             }
-
-            if (ball.Top < 0) 
+            //rebote de la parte de arriba
+            if (ball.Top < 50) 
                 
             {
                 GameData.dirY = -GameData.dirY;
