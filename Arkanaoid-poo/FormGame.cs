@@ -12,6 +12,7 @@ namespace Arkanaoid_poo
         SoundPlayer music=new SoundPlayer();
         private PictureBox ball;
         private string route;
+        private string username;
         private Panel scores;
         private Label remainingHearts, score;
         private PictureBox heart;
@@ -24,7 +25,7 @@ namespace Arkanaoid_poo
             WindowState = FormWindowState.Maximized;
 
         }
-        public FormGame(string route)
+        public FormGame(string route, string username)
         {
             InitializeComponent();
            
@@ -32,6 +33,7 @@ namespace Arkanaoid_poo
             Height = ClientSize.Height;
             Width = ClientSize.Width;
             this.route = route;
+            this.username = username;
 
         }
 
@@ -163,9 +165,15 @@ namespace Arkanaoid_poo
                     timer1.Stop();
                     MessageBox.Show("Has perdido");
                     this.Hide();
+                    //DBConnection.ExecuteNonQuery();
+                    DBConnection.ExecuteNonQuery($"INSERT INTO SCORE(score, player_nickname) " +
+                                                 $"VALUES({GameData.score},'{username}')");
+                    GameData.hearts = 3;
+                    GameData.score = 0;
+                    GameData.ticksCount = 0;
                     Form1 form1 = new Form1();
                     form1.Show();
-                    
+
                 }
             }
                 
