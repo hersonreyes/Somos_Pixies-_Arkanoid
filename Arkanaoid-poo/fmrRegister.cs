@@ -31,6 +31,7 @@ namespace Arkanaoid_poo
 
                 if (route.Equals(""))
                     throw new UnchargedBallException("Por favor, cargue una bola");
+                
                 FormGame game = new FormGame(route);
                 game.Show();
                 main.Hide();

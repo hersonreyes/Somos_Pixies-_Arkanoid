@@ -12,6 +12,9 @@ namespace Arkanaoid_poo
         SoundPlayer music=new SoundPlayer();
         private PictureBox ball;
         private string route;
+        private Panel scores;
+        private Label remainingHearts, score;
+        private PictureBox heart;
         public FormGame()
         {
             InitializeComponent();
@@ -33,7 +36,8 @@ namespace Arkanaoid_poo
         }
 
         private void FormGame_Load(object sender, EventArgs e)
-        {   //seteando atributos para pictureBox del jugador
+        {  ScoresPanel();
+            //seteando atributos para pictureBox del jugador
             pictureBox1.BackgroundImage=Image.FromFile("../../../Sprites/Player.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Top = (Height - pictureBox1.Height) - 50;
@@ -89,7 +93,7 @@ namespace Arkanaoid_poo
 
                     tiles[i, j].Left = j * pWidth;
                     //top se cambia para dejar espacio para las vidas
-                    tiles[i, j].Top = (i * pHeight) + LevelTop;
+                    tiles[i, j].Top = i * pHeight + scores.Height;
                     
                     tiles[i, j].Height = pHeight;
                     tiles[i, j].Width = pWidth;
@@ -123,11 +127,10 @@ namespace Arkanaoid_poo
         
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (!GameData.gameStarted)
-            {
+            if (!GameData.gameStarted) 
                 return;
-            }
-
+            
+            GameData.ticksCount += 0.01;
             ball.Left += GameData.dirX;
             ball.Top += GameData.dirY;
             
@@ -139,6 +142,7 @@ namespace Arkanaoid_poo
             if (e.KeyCode == Keys.Space)
             {
                 GameData.gameStarted = true;
+                timer1.Start();
             }
         }
 
@@ -148,18 +152,33 @@ namespace Arkanaoid_poo
              
             //si la bola toca el fondo de la pantalla
             if (ball.Bottom > Height)
-                //provisional hasta diseñar sistema de vidas
-                Application.Exit(); 
+            {
+                GameData.hearts--;
+                GameData.gameStarted = false;
+                timer1.Stop();
+                ElementsReposition();
+                UpdateElements();
+                if (GameData.hearts == 0)
+                {
+                    timer1.Stop();
+                    MessageBox.Show("Has perdido");
+                    this.Hide();
+                    Form1 form1 = new Form1();
+                    form1.Show();
+                    
+                }
+            }
+                
+                 
             //rebote con la izquierda y derecha de la pantalla
             if (ball.Left < 0 || ball.Right > Width)
             {
                 GameData.dirX = -GameData.dirX;
                 return;
             }
-            // //Altura maxima a la que rebotara la bola
-            //Provisional, pues hay que considerar espacio para las vidas 
-            if (ball.Top < 50) 
-                // ball.top < LevelTop; donde i es cero 
+
+            if (ball.Top < 0) 
+                
             {
                 GameData.dirY = -GameData.dirY;
                 return;
@@ -175,7 +194,7 @@ namespace Arkanaoid_poo
                 for (int j = 0; j < 10; j++)
                 {
                     if (tiles[i, j] != null && ball.Bounds.IntersectsWith(tiles[i, j].Bounds))
-                    {
+                    {  GameData.score += (int)(tiles[i, j].Hits * GameData.ticksCount);
                         
                         tiles[i, j].Hits--;
 
@@ -193,10 +212,79 @@ namespace Arkanaoid_poo
 
 
                         GameData.dirY = -GameData.dirY;
+
+                        score.Text = GameData.score.ToString();
                         return;
                     }
                 }
             }
+        }
+          private void ScoresPanel()
+        {
+            // Instanciar panel
+            scores = new Panel();
+
+            // Setear elementos del panel
+            scores.Width = Width;
+            scores.Height = (int)(Height * 0.07);
+
+            scores.Top = scores.Left = 0;
+
+            scores.BackColor = Color.Black;
+
+            #region Label + PictureBox
+            // Instanciar pb
+            heart = new PictureBox();
+
+            heart.Height = heart.Width = scores.Height;
+
+            heart.Top = 0;
+            heart.Left = 20;
+
+            heart.BackgroundImage = Image.FromFile("../../../" + "Sprites/Heart.png");
+            heart.BackgroundImageLayout = ImageLayout.Stretch;
+            #endregion
+
+            
+
+            // Instanciar labels
+            remainingHearts = new Label();
+            score = new Label();
+
+            // Setear elementos de los labels
+            remainingHearts.ForeColor = score.ForeColor = Color.White;
+
+            remainingHearts.Text = " x " + GameData.hearts.ToString();
+            score.Text = GameData.score.ToString();
+
+            remainingHearts.Font = score.Font = new Font("Microsoft YaHei", 24F);
+            remainingHearts.TextAlign = score.TextAlign = ContentAlignment.MiddleCenter;
+
+            remainingHearts.Left = heart.Right + 5;
+            score.Left = Width - 100;
+
+            remainingHearts.Height = score.Height = scores.Height;
+
+            scores.Controls.Add(heart);
+            scores.Controls.Add(remainingHearts);
+            scores.Controls.Add(score);
+
+          
+
+            Controls.Add(scores);
+        }
+
+        private void ElementsReposition()
+        {
+            pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
+            ball.Top = pictureBox1.Top - ball.Height;
+            ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+        }
+
+        private void UpdateElements()
+        {
+            remainingHearts.Text = " x " + GameData.hearts.ToString();
+            
         }
         
     }
