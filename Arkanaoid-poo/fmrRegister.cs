@@ -26,20 +26,10 @@ namespace Arkanaoid_poo
         {
             try
             {
-                var existing = DBConnection.ExecuteQuery($"SELECT nickname FROM PLAYER where nickname = '{txtUserRegister.Text}'");
-                
-                bool exist = false;
+                var exist = DBConnection.ExecuteQuery($"select exists(select nickname from player where nickname = '{txtUserRegister.Text}')");
+                var existing = exist.Rows[0];
 
-                if (existing.ToString().Equals(txtUserRegister.Text))
-                {
-                    exist = true;
-                }
-                else 
-                {
-                    exist = false;
-                }
-
-                if (exist)
+                if (existing[0].ToString().Equals("True"))
                 {
                     if (route.Equals(""))
                         throw new UnchargedBallException("Por favor, cargue una bola");
