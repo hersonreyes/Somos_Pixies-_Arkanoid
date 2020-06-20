@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="Modify : Register new Users and existing">
+      <change afterPath="$PROJECT_DIR$/Controlador/EmptyNicknameException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controlador/ExceededMaxCharactersException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controlador/PlayerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modelo/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vista/GameOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vista/frmList.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vista/frmList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Vista.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Vista.FormGame.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Vista.GameOptions.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Vista.fmrRegister.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Vista.frmList.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_16_06_2020_20_27__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_16_06_2020_20_27__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_16_06_2020_20_27__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/shelf/Uncommitted_changes_before_Update_at_16_06_2020_20_27__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanaoid-poo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanaoid-poo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomPictureBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modelo/CustomPictureBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controlador/DBConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Form1.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormGame.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FormGame.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FormGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormGame.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/FormGame.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controlador/GameData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOptions.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/GameOptions.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOptions.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/GameOptions.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnchargedBallException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controlador/UnchargedBallException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Arkanaoid_poo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmrRegister.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrRegister.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmrRegister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrRegister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmrRegister.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrRegister.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmList.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frmList.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/frmList.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid-poo.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.Form1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.FormGame.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.GameOptions.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.fmrRegister.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.frmList.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Arkanaoid_poo.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Vista/GameOptions.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/EmptyNicknameException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/ExceededMaxCharactersException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/UnchargedBallException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/frmList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FormGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/FormGame.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/frmList.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/DBConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/fmrRegister.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/fmrRegister.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/GameOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Player.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/frmList.Designer.cs" />
+        <option value="$PROJECT_DIR$/fmrRegister.Designer.cs" />
+        <option value="$PROJECT_DIR$/FormGame.Designer.cs" />
+        <option value="$PROJECT_DIR$/CustomPictureBox.cs" />
+        <option value="$PROJECT_DIR$/UnchargedBallException.cs" />
+        <option value="$PROJECT_DIR$/GameData.cs" />
+        <option value="$PROJECT_DIR$/TopScores.Designer.cs" />
+        <option value="$PROJECT_DIR$/TopScores.cs" />
+        <option value="$PROJECT_DIR$/GameOptions.Designer.cs" />
+        <option value="$PROJECT_DIR$/Form1.cs" />
+        <option value="$PROJECT_DIR$/Player.cs" />
+        <option value="$PROJECT_DIR$/frmList.cs" />
+        <option value="$PROJECT_DIR$/EmptyNicknameException.cs" />
+        <option value="$PROJECT_DIR$/ExceededMaxCharactersException.cs" />
+        <option value="$PROJECT_DIR$/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/FormGame.cs" />
+        <option value="$PROJECT_DIR$/fmrRegister.cs" />
+        <option value="$PROJECT_DIR$/GameOptions.cs" />
+        <option value="$PROJECT_DIR$/Vista/fmrRegister.cs" />
+        <option value="$PROJECT_DIR$/Vista/Form1.cs" />
+        <option value="$PROJECT_DIR$/Controlador/EmptyNicknameException.cs" />
+        <option value="$PROJECT_DIR$/Controlador/ExceededMaxCharactersException.cs" />
+        <option value="$PROJECT_DIR$/Controlador/GameData.cs" />
+        <option value="$PROJECT_DIR$/Controlador/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Controlador/UnchargedBallException.cs" />
+        <option value="$PROJECT_DIR$/Vista/FormGame.cs" />
+        <option value="$PROJECT_DIR$/Modelo/CustomPictureBox.cs" />
+        <option value="$PROJECT_DIR$/Controlador/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/Vista/GameOptions.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c3WWLd3KLQ5qqbd1IguTsZ9l4R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.350278" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30023828" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Arkanaoid-poo" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Arkanaoid-poo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="" />
+      <created>1589757797066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589757797066</updated>
+      <workItem from="1589757848981" duration="8000" />
+      <workItem from="1591124911380" duration="5095000" />
+      <workItem from="1591139963577" duration="1843000" />
+      <workItem from="1591142171607" duration="449000" />
+      <workItem from="1591142759151" duration="24000" />
+      <workItem from="1591142803861" duration="35000" />
+      <workItem from="1591214818968" duration="5987000" />
+      <workItem from="1591233585984" duration="6158000" />
+      <workItem from="1591534067698" duration="5628000" />
+      <workItem from="1591847309415" duration="4191000" />
+      <workItem from="1591910276304" duration="4759000" />
+      <workItem from="1591995832187" duration="5476000" />
+      <workItem from="1592069106559" duration="5404000" />
+      <workItem from="1592081751165" duration="1101000" />
+      <workItem from="1592085536858" duration="1659000" />
+      <workItem from="1592265711098" duration="4624000" />
+      <workItem from="1592419763708" duration="2060000" />
+      <workItem from="1592428218901" duration="3594000" />
+      <workItem from="1592583307204" duration="8144000" />
+      <workItem from="1592598205259" duration="18179000" />
+      <workItem from="1592675688301" duration="1546000" />
+      <workItem from="1592677669604" duration="144000" />
+      <workItem from="1592678799117" duration="14630000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add: fmrRegister">
+      <created>1591142531268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591142531268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ADD: frmList">
+      <created>1591146962281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591146962281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add: Form1 Buttons Codification N Form Register Codification">
+      <created>1591220143703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591220143703</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ADD : GameData Static Class &amp; Modify FormGame add ball">
+      <created>1591496422413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591496422413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ADD: GameData Static Class and Bounce Ball">
+      <created>1591501598006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591501598006</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add: Backgroud to GameForm and welcome sound">
+      <created>1591504217845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591504217845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add: Dragon Ball &amp; Sharingan Sound">
+      <created>1591997382244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591997382244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add: Scores in Database">
+      <created>1592417280801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592417280801</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modify : Register new Users and existing">
+      <created>1592426324897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592426324897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add: fmrRegister" />
+    <MESSAGE value="ADD: frmList" />
+    <MESSAGE value="Add: Form1 Buttons Codification N Form Register Codification" />
+    <MESSAGE value="ADD : GameData Static Class &amp; Modify FormGame add ball" />
+    <MESSAGE value="ADD: GameData Static Class and Bounce Ball" />
+    <MESSAGE value="Add: Backgroud to GameForm and welcome sound" />
+    <MESSAGE value="Add: Dragon Ball &amp; Sharingan Sound" />
+    <MESSAGE value="Add: Scores in Database" />
+    <MESSAGE value="Modify : Register new Users and existing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify : Register new Users and existing" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1592081767741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592081767741" />
+    <state width="362" height="458" key="DebuggerActiveHint" timestamp="1592685567187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="362" height="458" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1592685567186" />
+    <state width="1290" height="59" key="GridCell.Tab.0.bottom" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1877" height="20" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967705" />
+    <state width="1290" height="59" key="GridCell.Tab.0.center" timestamp="1592693905756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
+    <state width="1877" height="20" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967701" />
+    <state width="1290" height="59" key="GridCell.Tab.0.left" timestamp="1592693905756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
+    <state width="1877" height="20" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967701" />
+    <state width="1290" height="59" key="GridCell.Tab.0.right" timestamp="1592693905756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
+    <state width="1877" height="20" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592421967705" />
+    <state width="1290" height="59" key="GridCell.Tab.1.bottom" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1290" height="59" key="GridCell.Tab.1.center" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1290" height="59" key="GridCell.Tab.1.left" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1290" height="59" key="GridCell.Tab.1.right" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1290" height="59" key="GridCell.Tab.2.bottom" timestamp="1592693905758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905758" />
+    <state width="1290" height="59" key="GridCell.Tab.2.center" timestamp="1592693905758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905758" />
+    <state width="1290" height="59" key="GridCell.Tab.2.left" timestamp="1592693905757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
+    <state width="1290" height="59" key="GridCell.Tab.2.right" timestamp="1592693905758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905758" />
+    <state width="1290" height="59" key="GridCell.Tab.3.bottom" timestamp="1592693905773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905773" />
+    <state width="1290" height="59" key="GridCell.Tab.3.center" timestamp="1592693905771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905771" />
+    <state width="1290" height="59" key="GridCell.Tab.3.left" timestamp="1592693905758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905758" />
+    <state width="1290" height="59" key="GridCell.Tab.3.right" timestamp="1592693905772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905772" />
+    <state width="1290" height="59" key="GridCell.Tab.4.bottom" timestamp="1592693905775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905775" />
+    <state width="1290" height="59" key="GridCell.Tab.4.center" timestamp="1592693905773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905773" />
+    <state width="1290" height="59" key="GridCell.Tab.4.left" timestamp="1592693905773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905773" />
+    <state width="1290" height="59" key="GridCell.Tab.4.right" timestamp="1592693905775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1290" height="59" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905775" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1591219491968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591219491968" />
+    <state x="393" y="64" key="RiderGenerateDialog" timestamp="1591536381402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="64" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1591536381402" />
+    <state x="604" y="106" key="RollbackChangesDialog" timestamp="1592418708926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592281924787" />
+    <state x="604" y="106" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592418708926" />
+    <state width="675" height="364" key="XDebugger.FullValuePopup" timestamp="1592684413788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="675" height="364" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1592684413788" />
+    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592417258431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592361145626" />
+    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592417258431" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1591301079523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591301079523" />
+  </component>
+</project>
