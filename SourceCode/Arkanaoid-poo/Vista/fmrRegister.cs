@@ -84,22 +84,22 @@ namespace Arkanaoid_poo.Vista
             switch (comboBox1.SelectedIndex)
             {
                 case 0:
-                    route = "../../../Sprites/Ball.png";
+                    route = "../../../../Sprites/Ball.png";
                     pictureBox1.BackgroundImage=Image.FromFile(route);
                     pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
                     break;
                  case 1:
-                     route = "../../../Sprites/Ball2.png";
+                     route = "../../../../Sprites/Ball2.png";
                      pictureBox1.BackgroundImage=Image.FromFile(route);
                      pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-                     player.SoundLocation = "../../../Sounds/db.wav";
+                     player.SoundLocation = "../../../../Sounds/db.wav";
                      player.Play();
                      break;
                 case 2:
-                    route = "../../../Sprites/Ball3.png";
+                    route = "../../../../Sprites/Ball3.png";
                     pictureBox1.BackgroundImage=Image.FromFile(route);
                     pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-                    player.SoundLocation = "../../../Sounds/sharingan.wav";
+                    player.SoundLocation = "../../../../Sounds/sharingan.wav";
                     player.Play();
                     break;
                  

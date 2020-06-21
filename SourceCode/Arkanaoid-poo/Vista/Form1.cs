@@ -14,7 +14,7 @@ namespace Arkanaoid_poo.Vista
         private void Form1_Load(object sender, EventArgs e)
         {
             SoundPlayer player= new SoundPlayer();
-            player.SoundLocation = "../../../Sounds/welcome.wav";
+            player.SoundLocation = "../../../../Sounds/welcome.wav";
             player.Play();
             current= new GameOptions(this);
             current.Dock =  DockStyle.Fill;

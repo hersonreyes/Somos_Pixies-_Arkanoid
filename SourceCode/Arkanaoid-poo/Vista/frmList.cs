@@ -6,7 +6,8 @@ using Arkanaoid_poo.Controlador;
 namespace Arkanaoid_poo.Vista
 {
     public partial class frmList : Form
-    { public delegate void OnClosedWindow();
+    {
+        public delegate void OnClosedWindow();
         public OnClosedWindow CloseAction;
 
         private Label[,] players;
@@ -14,32 +15,30 @@ namespace Arkanaoid_poo.Vista
         {
             InitializeComponent();
         }
-
+        private void frmList_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            CloseAction?.Invoke();
+        }
         private void frmList_Load(object sender, EventArgs e)
         {
             try
             {
                 LoadPlayers();
-            
             }
             catch (Exception esg)
             {
-                MessageBox.Show("Ha cocurrido un problema");
+                MessageBox.Show("Ha ocurrido un error");
             }
-        }
-
-        private void frmList_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            CloseAction?.Invoke();
         }
         private void LoadPlayers()
         {
+            //se obtiene la lista de jugadores
             var playersList = PlayerController.ObtainTopPlayers();
-            players = new Label[10,2];
+            players = new Label[playersList.Count,2];
 
-            int sampleTop = label1.Bottom + 50, sampleLeft = 35;
+            int sampleTop = label1.Bottom + 50, sampleLeft = 100;
 
-            for(int i = 0; i < 10; i++)
+            for(int i = 0; i < playersList.Count; i++)
             {
                 for(int j = 0; j < 2; j++)
                 {
@@ -67,7 +66,8 @@ namespace Arkanaoid_poo.Vista
                     Controls.Add(players[i,j]);
                 }
             }
+     
+            }
         }
         
     }
-}

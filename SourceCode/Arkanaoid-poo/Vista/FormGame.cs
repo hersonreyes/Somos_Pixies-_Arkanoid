@@ -40,7 +40,7 @@ namespace Arkanaoid_poo.Vista
         private void FormGame_Load(object sender, EventArgs e)
         {  ScoresPanel();
             //seteando atributos para pictureBox del jugador
-            pictureBox1.BackgroundImage=Image.FromFile("../../../Sprites/Player.png");
+            pictureBox1.BackgroundImage=Image.FromFile("../../../../Sprites/Player.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Top = (Height - pictureBox1.Height) - 50;
             pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
@@ -54,19 +54,19 @@ namespace Arkanaoid_poo.Vista
             Controls.Add(ball);
             LoadTiles();
             //seteando musica de fondo
-            if (route.Equals("../../../Sprites/Ball3.png"))
+            if (route.Equals("../../../../Sprites/Ball3.png"))
             {
-                music.SoundLocation = "../../../Sounds/naruto.wav";
+                music.SoundLocation = "../../../../Sounds/naruto.wav";
                 music.PlayLooping();
             }
-            else  if (route.Equals("../../../Sprites/Ball.png"))
+            else  if (route.Equals("../../../../Sprites/Ball.png"))
             {
-                music.SoundLocation = "../../../Sounds/Nball.wav";
+                music.SoundLocation = "../../../../Sounds/Nball.wav";
                 music.PlayLooping();
             }
-            else  if (route.Equals("../../../Sprites/Ball2.png"))
+            else  if (route.Equals("../../../../Sprites/Ball2.png"))
             {
-                music.SoundLocation = "../../../Sounds/dragonball.wav";
+                music.SoundLocation = "../../../../Sounds/dragonball.wav";
                 music.PlayLooping();
             }
             timer1.Start();
@@ -100,7 +100,7 @@ namespace Arkanaoid_poo.Vista
                     
                     tiles[i, j].Height = pHeight;
                     tiles[i, j].Width = pWidth;
-                    tiles[i,j].BackgroundImage=Image.FromFile("../../../" + "Sprites/"+i+".png");
+                    tiles[i,j].BackgroundImage=Image.FromFile("../../../../" + "Sprites/"+i+".png");
                     tiles[i, j].BackgroundImageLayout = ImageLayout.Stretch;
                     
                     tiles[i, j].Tag = "tileTag";
@@ -165,6 +165,7 @@ namespace Arkanaoid_poo.Vista
                 {
                     timer1.Stop();
                     MessageBox.Show("Has perdido");
+                    music.Stop();
                     this.Hide();
                     GameData.hearts = 3;
                     GameData.score = 0;
@@ -211,7 +212,7 @@ namespace Arkanaoid_poo.Vista
                         }
                         else
                         {   //si el bloque es golpeado y aun tiene vida, se cambia su diseño
-                            tiles[i,j].BackgroundImage=Image.FromFile("../../../" + "Sprites/Tile - blinded broken.png");
+                            tiles[i,j].BackgroundImage=Image.FromFile("../../../../" + "Sprites/Tile - blinded broken.png");
                             tiles[i, j].BackgroundImageLayout = ImageLayout.Stretch;
                         }
 
@@ -228,6 +229,7 @@ namespace Arkanaoid_poo.Vista
                             PlayerController.CreateNewScore(id, GameData.score);
                            
                             MessageBox.Show("Has ganado!");
+                            music.Stop();
                             this.Hide();
                             GameData.hearts = 3;
                             GameData.score = 0;
@@ -261,7 +263,7 @@ namespace Arkanaoid_poo.Vista
             heart.Top = 0;
             heart.Left = 20;
 
-            heart.BackgroundImage = Image.FromFile("../../../" + "Sprites/Heart.png");
+            heart.BackgroundImage = Image.FromFile("../../../../" + "Sprites/Heart.png");
             heart.BackgroundImageLayout = ImageLayout.Stretch;
             #endregion
 

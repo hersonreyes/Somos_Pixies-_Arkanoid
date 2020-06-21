@@ -31,7 +31,8 @@ namespace Arkanaoid_poo.Vista
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrRegister));
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(fmrRegister));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserRegister = new System.Windows.Forms.TextBox();
@@ -49,10 +50,14 @@ namespace Arkanaoid_poo.Vista
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(
+                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(
+                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(
+                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(
+                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtUserRegister, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnRegister, 1, 3);
@@ -64,22 +69,28 @@ namespace Arkanaoid_poo.Vista
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(645, 447);
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(752, 516);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Old English Text MT", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(132, 0);
+            this.label1.Location = new System.Drawing.Point(153, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 111);
+            this.label1.Size = new System.Drawing.Size(219, 129);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,9 +98,9 @@ namespace Arkanaoid_poo.Vista
             // txtUserRegister
             // 
             this.txtUserRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUserRegister.Location = new System.Drawing.Point(325, 45);
+            this.txtUserRegister.Location = new System.Drawing.Point(379, 53);
             this.txtUserRegister.Name = "txtUserRegister";
-            this.txtUserRegister.Size = new System.Drawing.Size(187, 20);
+            this.txtUserRegister.Size = new System.Drawing.Size(217, 23);
             this.txtUserRegister.TabIndex = 1;
             // 
             // btnRegister
@@ -97,10 +108,11 @@ namespace Arkanaoid_poo.Vista
             this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnRegister.BackColor = System.Drawing.Color.White;
             this.tableLayoutPanel1.SetColumnSpan(this.btnRegister, 2);
-            this.btnRegister.Font = new System.Drawing.Font("Old English Text MT", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnRegister.Location = new System.Drawing.Point(221, 336);
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnRegister.Location = new System.Drawing.Point(258, 390);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(201, 99);
+            this.btnRegister.Size = new System.Drawing.Size(234, 114);
             this.btnRegister.TabIndex = 2;
             this.btnRegister.Text = "Jugar";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -109,11 +121,12 @@ namespace Arkanaoid_poo.Vista
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Old English Text MT", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(132, 111);
+            this.label2.Location = new System.Drawing.Point(153, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 111);
+            this.label2.Size = new System.Drawing.Size(219, 129);
             this.label2.TabIndex = 3;
             this.label2.Text = "Seleccione una pelota";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -122,17 +135,17 @@ namespace Arkanaoid_poo.Vista
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(325, 156);
+            this.comboBox1.Location = new System.Drawing.Point(379, 182);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(186, 21);
+            this.comboBox1.Size = new System.Drawing.Size(216, 23);
             this.comboBox1.TabIndex = 4;
             // 
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Location = new System.Drawing.Point(132, 225);
+            this.button1.Location = new System.Drawing.Point(153, 261);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 47);
+            this.button1.Size = new System.Drawing.Size(219, 54);
             this.button1.TabIndex = 5;
             this.button1.Text = " Cargar Bola  a Usar";
             this.button1.UseVisualStyleBackColor = true;
@@ -141,19 +154,19 @@ namespace Arkanaoid_poo.Vista
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(358, 225);
+            this.pictureBox1.Location = new System.Drawing.Point(417, 261);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 83);
+            this.pictureBox1.Size = new System.Drawing.Size(141, 96);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // fmrRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(645, 447);
+            this.ClientSize = new System.Drawing.Size(752, 516);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
