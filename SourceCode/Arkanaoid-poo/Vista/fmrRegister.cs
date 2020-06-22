@@ -109,7 +109,7 @@ namespace Arkanaoid_poo.Vista
                     route = "../../../../Sprites/Ball4.png";
                     pictureBox1.BackgroundImage=Image.FromFile(route);
                     pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-                    player.SoundLocation = "../../../../Sounds/sharingan.wav";
+                    player.SoundLocation = "../../../../Sounds/little.wav";
                     player.Play();
                     break;
                  
