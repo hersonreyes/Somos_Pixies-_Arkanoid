@@ -142,18 +142,34 @@ namespace Arkanaoid_poo.Vista
 
         private void FormGame_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Space)
+            try
             {
-                GameData.gameStarted = true;
-                timer1.Start();
+                if (!GameData.gameStarted)
+                {
+                    switch (e.KeyCode)
+                    {
+                        case Keys.Space:
+                            GameData.gameStarted = true;
+                            timer1.Start();
+                            break;
+                        default:
+                            throw new WrongKeyPressedException("Presione Space para iniciar el juego");
+                    }
+
+                }
+            }
+            catch (WrongKeyPressedException ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void bounceBall()
         {
-            
-             
-            //si la bola toca el fondo de la pantalla
+
+            try
+            {
+                 //si la bola toca el fondo de la pantalla
             if (ball.Bottom > Height)
             {
                 GameData.hearts--;
@@ -188,6 +204,10 @@ namespace Arkanaoid_poo.Vista
                 GameData.dirY = -GameData.dirY;
                 return;
             }
+            //Pelota se sale de los bounds
+            if (ball.Bottom > Height)
+                throw new OutOfBoundsException("");
+            
             //rebote con el jugador
             if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
             {
@@ -239,6 +259,11 @@ namespace Arkanaoid_poo.Vista
                         return;
                     }
                 }
+            }
+            }
+            catch (OutOfBoundsException ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
           private void ScoresPanel()

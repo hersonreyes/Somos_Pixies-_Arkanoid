@@ -95,8 +95,10 @@
         <Compile Include="Controlador\EmptyNicknameException.cs" />
         <Compile Include="Controlador\ExceededMaxCharactersException.cs" />
         <Compile Include="Controlador\GameData.cs" />
+        <Compile Include="Controlador\OutOfBoundsException.cs" />
         <Compile Include="Controlador\PlayerController.cs" />
         <Compile Include="Controlador\UnchargedBallException.cs" />
+        <Compile Include="Controlador\WrongKeyPressedException.cs" />
         <Compile Include="Modelo\CustomPictureBox.cs" />
         <Compile Include="Modelo\Player.cs" />
         <Compile Include="Program.cs" />

@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Arkanaoid-poo/.idea/.idea.Arkanaoid-poo/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arkanaoid-poo/.idea/.idea.Arkanaoid-poo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arkanaoid-poo/fmrRegister.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arkanaoid-poo/fmrRegister.resx" beforeDir="false" />
-    </list>
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +38,8 @@
     <setting file="file://$PROJECT_DIR$/Modelo/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/CustomPictureBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/OutOfBoundsException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controlador/WrongKeyPressedException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/EmptyNicknameException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controlador/UnchargedBallException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,13 +80,15 @@
         <option value="$PROJECT_DIR$/Controlador/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Controlador/UnchargedBallException.cs" />
         <option value="$PROJECT_DIR$/Modelo/CustomPictureBox.cs" />
-        <option value="$PROJECT_DIR$/Controlador/DBConnection.cs" />
         <option value="$PROJECT_DIR$/Vista/GameOptions.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrRegister.cs" />
-        <option value="$PROJECT_DIR$/Vista/FormGame.cs" />
         <option value="$PROJECT_DIR$/Vista/frmList.Designer.cs" />
         <option value="$PROJECT_DIR$/Vista/Form1.cs" />
         <option value="$PROJECT_DIR$/Vista/frmList.cs" />
+        <option value="$PROJECT_DIR$/Controlador/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/Controlador/WrongKeyPressedException.cs" />
+        <option value="$PROJECT_DIR$/Controlador/OutOfBoundsException.cs" />
+        <option value="$PROJECT_DIR$/Vista/FormGame.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +168,9 @@
       <workItem from="1592698407543" duration="5952000" />
       <workItem from="1592704537231" duration="19000" />
       <workItem from="1592704593907" duration="196000" />
+      <workItem from="1592704949908" duration="1025000" />
+      <workItem from="1592777058072" duration="3746000" />
+      <workItem from="1592782940133" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -293,26 +295,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="362" height="458" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1592685567186" />
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1592704493069">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1592789763827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592704493069" />
-    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1592704493069">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
+    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1592789763827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592704493069" />
-    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1592704493069">
+    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
+    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1592789763827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592704493069" />
-    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1592704493069">
+    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1592789763827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592704493069" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
     <state width="1877" height="178" key="GridCell.Tab.1.bottom" timestamp="1592704493069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,10 +399,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1591219491968" />
-    <state x="393" y="64" key="RiderGenerateDialog" timestamp="1591536381402">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="552" y="91" key="RiderGenerateDialog" timestamp="1592784154638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="64" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1591536381402" />
+    <state x="552" y="91" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592784154638" />
     <state x="604" y="106" key="RollbackChangesDialog" timestamp="1592704633392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
