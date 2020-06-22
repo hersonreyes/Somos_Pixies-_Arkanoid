@@ -10,8 +10,9 @@ namespace Arkanaoid_poo.Vista
     public partial class fmrRegister : Form
     {
         SoundPlayer player= new SoundPlayer();
+        SoundPlayer voice=new SoundPlayer();
         private Form1 main = null;
-        private List<string> balls = new List<string> {"Normal","Esfera del Dragon","Sharingan"};
+        private List<string> balls = new List<string> {"Normal","Esfera del Dragon","Sharingan","My Little Pony"};
         private string route = "";
         public delegate void GetNickname(string text);
         public GetNickname gn;
@@ -77,6 +78,8 @@ namespace Arkanaoid_poo.Vista
         private void fmrRegister_Load(object sender, EventArgs e)
         {
             comboBox1.DataSource = balls;
+           voice.SoundLocation="../../../../Sounds/register.wav";
+           voice.Play();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -97,6 +100,13 @@ namespace Arkanaoid_poo.Vista
                      break;
                 case 2:
                     route = "../../../../Sprites/Ball3.png";
+                    pictureBox1.BackgroundImage=Image.FromFile(route);
+                    pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+                    player.SoundLocation = "../../../../Sounds/sharingan.wav";
+                    player.Play();
+                    break;
+                case 3:
+                    route = "../../../../Sprites/Ball4.png";
                     pictureBox1.BackgroundImage=Image.FromFile(route);
                     pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
                     player.SoundLocation = "../../../../Sounds/sharingan.wav";

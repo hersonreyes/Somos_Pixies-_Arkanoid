@@ -69,6 +69,11 @@ namespace Arkanaoid_poo.Vista
                 music.SoundLocation = "../../../../Sounds/dragonball.wav";
                 music.PlayLooping();
             }
+            else  if (route.Equals("../../../../Sprites/Ball4.png"))
+            {
+                music.SoundLocation = "../../../../Sounds/pony.wav";
+                music.PlayLooping();
+            }
             timer1.Start();
         }
 
@@ -180,8 +185,10 @@ namespace Arkanaoid_poo.Vista
                 if (GameData.hearts == 0)
                 {
                     timer1.Stop();
+                    music.SoundLocation = "../../../../Sounds/loose.wav";
+                    music.Play();
                     MessageBox.Show("Has perdido");
-                    music.Stop();
+                    
                     this.Hide();
                     GameData.hearts = 3;
                     GameData.score = 0;
@@ -247,9 +254,9 @@ namespace Arkanaoid_poo.Vista
                             timer1.Stop();
                             
                             PlayerController.CreateNewScore(id, GameData.score);
-                           
+                            music.SoundLocation="../../../../Sounds/win.wav";
+                            music.Play();
                             MessageBox.Show("Has ganado!");
-                            music.Stop();
                             this.Hide();
                             GameData.hearts = 3;
                             GameData.score = 0;

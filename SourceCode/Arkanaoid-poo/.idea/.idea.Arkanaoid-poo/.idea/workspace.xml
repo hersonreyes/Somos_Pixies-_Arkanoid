@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="" />
+    <list default="true" id="a3a1ed4f-53da-420a-9214-9909dcac3113" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Documentacion/scriparkanoid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScriptDB.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,6 @@
         <option value="$PROJECT_DIR$/Controlador/UnchargedBallException.cs" />
         <option value="$PROJECT_DIR$/Modelo/CustomPictureBox.cs" />
         <option value="$PROJECT_DIR$/Vista/GameOptions.cs" />
-        <option value="$PROJECT_DIR$/Vista/fmrRegister.cs" />
         <option value="$PROJECT_DIR$/Vista/frmList.Designer.cs" />
         <option value="$PROJECT_DIR$/Vista/Form1.cs" />
         <option value="$PROJECT_DIR$/Vista/frmList.cs" />
@@ -89,6 +91,7 @@
         <option value="$PROJECT_DIR$/Controlador/WrongKeyPressedException.cs" />
         <option value="$PROJECT_DIR$/Controlador/OutOfBoundsException.cs" />
         <option value="$PROJECT_DIR$/Vista/FormGame.cs" />
+        <option value="$PROJECT_DIR$/Vista/fmrRegister.cs" />
       </list>
     </option>
   </component>
@@ -171,6 +174,9 @@
       <workItem from="1592704949908" duration="1025000" />
       <workItem from="1592777058072" duration="3746000" />
       <workItem from="1592782940133" duration="3602000" />
+      <workItem from="1592792252567" duration="2135000" />
+      <workItem from="1592796343731" duration="961000" />
+      <workItem from="1592852407368" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Add: fmrRegister">
       <created>1591142531268</created>
@@ -295,26 +301,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="362" height="458" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1592685567186" />
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1592789763827">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom" timestamp="1592798421669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592693905757" />
-    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
-    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1592789763827">
+    <state width="1877" height="5" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592798421669" />
+    <state width="1877" height="5" key="GridCell.Tab.0.center" timestamp="1592798421669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
-    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1592789763827">
+    <state width="1877" height="5" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592798421669" />
+    <state width="1877" height="5" key="GridCell.Tab.0.left" timestamp="1592798421669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
-    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1592789763827">
+    <state width="1877" height="5" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592798421669" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right" timestamp="1592798421669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1290" height="59" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592693905756" />
-    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592789763827" />
+    <state width="1877" height="5" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592798421669" />
     <state width="1877" height="178" key="GridCell.Tab.1.bottom" timestamp="1592704493069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,11 +424,11 @@
     </state>
     <state width="675" height="364" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1592684413788" />
     <state width="949" height="520" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1592702238193" />
-    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592698449444">
+    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592852440342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="472" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592361145626" />
-    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592698449444" />
+    <state x="663" y="401" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592852440342" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1591301079523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
